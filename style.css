@@ -1,7 +1,10 @@
+body{
+    background-color: rgb(191, 223, 223);
+}
 .container{
     width: 350px;
     height: 500px;
-    background-color: rgb(153, 165, 42);
+    background-color: rgb(255, 255, 255);
     border-radius: 20px;
 }
 .bg-user img {
@@ -16,6 +19,37 @@
     border-radius: 50%;
     border:5px solid rgb(250, 250, 250);    
 }
-#nome{
+.name{
+    text-align: center;
+    font-weight: 700;
+    font-size: 18px;
+}
+span{
+    font-weight: 400;
+    color: gray;
+    font-size: 18px;
+}
+.location{
+    font-weight: 400;
+    color: gray;
+    font-size: 14px;
+    text-align: center;
+}
+.infos{
+    display: flex;
+}
+.followers{
+    display: block;
+}
+.likes{
+    display: block;
+}
+.photos{
+    display: block;
+}
+.description{
+    font-weight: 400;
+    color: gray;
+    font-size: 14px;
     text-align: center;
 }
