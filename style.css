@@ -1,0 +1,21 @@
+.container{
+    width: 350px;
+    height: 500px;
+    background-color: rgb(153, 165, 42);
+    border-radius: 20px;
+}
+.bg-user img {
+    border-top-left-radius: 20px;  
+    border-top-right-radius: 20px;  
+}
+.image-profile{
+    text-align: center;
+    margin-top: -50px;
+}
+.image-profile img{
+    border-radius: 50%;
+    border:5px solid rgb(250, 250, 250);    
+}
+#nome{
+    text-align: center;
+}
